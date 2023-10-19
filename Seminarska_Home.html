@@ -1,0 +1,167 @@
+<html>
+
+<head>
+	<style>
+		body {margin: 0;
+			  height: 100%;
+			  overflow: hidden}
+			
+		a:link {text-decoration:none;
+				color:black;}
+		a:visited {text-decoration:none;
+				color:black;}
+		a:hover {text-decoration:none;
+				color:black;}
+		a:active {text-decoration:none;
+				color:black;}
+				
+		#home {background-color:#8B4513;
+				position:fixed;
+				width:100%;
+				text-align:right;
+				top:0px;
+				left:0px;
+				z-index: 1;}
+				
+		img {position:fixed;
+			top:0px;
+			left:40px;
+			z-index: 1;}
+				
+		#izdavackikuki {position:relative;
+						list-style-type:square;
+						bottom:500px;
+						font-size:170%;
+						width:35%;
+						bottom:90px;
+						font-family:Lucida Handwriting;
+						border:5px dotted red;}
+		
+		#Kategorii {position:relative;
+					font-size:170%;
+					bottom:305px;
+					left:970px;
+					width:35%;
+					font-family:Lucida Handwriting;
+					border:5px dotted red;}
+					
+		#ribbon {position:relative;
+				left:620px;}
+				
+		#izreka {width:25%;
+				position:relative;
+				left:565px;
+				bottom:430px;
+				font-family:Arial;
+				border:3px dotted red;
+				font-size:120%;
+				background-color:DarkSalmon;}
+				
+		fieldset {border: 5px dashed red;
+					position:relative;
+					bottom:420px;
+					width:400px;}
+					
+		#collage {  height:370px;
+					position:apsolute;
+					top:320px;
+					left:520px; }
+					
+		#p {border: 5px dotted red;
+			width:400px;
+			position:relative;
+			bottom:482px;
+			left:560px;
+			text-align:center;
+			}
+				  
+		#RCA {border: 5px dashed red;
+					position:relative;
+					bottom:920px;
+					width:400px;
+					left:1070px;
+					font-size:15px;
+					line-height:155%}
+					
+		#RCAh {color:red;
+				font-weight:bold;
+				font-size:25px;}
+	</style>
+</head>
+
+<body bgcolor="#F0E68C">
+
+<div id="home"><h4><a href="Seminarska_Home.html">Дома</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="For_us.html">За нас</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Products.html">Продукти</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Contact.html">Контакт<a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4></div>
+<a href="Seminarska_Home.html"><img src="Bookmanialogo.png" alt="Bookmania"></a>
+
+
+<img id="ribbon" src="NY1.png" alt="New Year">
+
+<div id="izdavackikuki"><ul>Издавачки куќи од кои имаме книги:
+		<li><a href="http://matica.com.mk" target="_blank"><b4>МАТИЦА</b4></a>
+		<li><a href="http://antolog.mk" target="_blank"><b4>АНТОЛОГ</b4></a>
+		<li><a href="http://sakamknigi.mk" target="_blank"><b4>САКАМ КНИГИ</b4></a> 
+</ul></div>
+
+<div id="Kategorii"><ol>Книгите се поделени во три категории:
+		<li><b4>ТРИЛЕРИ & МИСТЕРИИ</b4>
+		<li><b4>ДРАМИ & ИСТОРИСКИ</b4>
+		<li><b4>РОМАНСИ & ЧИК ЛИТ</b4>
+</ol></div>
+
+<div id="izreka"><p><i><center>&quot;Никогаш немој да се откажеш од работите кои те прават среќен. Тоа не е себичност, туку радост на животот.&quot;</center></i></p></div>
+
+<form action="mailto:youremail@email.com" method="post">
+<fieldset>
+<legend>Кратка анкета</legend>
+<h5>Од која издавачка куќа купувате најмногу книги:</h5>
+<input type="radio" name="izdavackikuki" value="sakamknigi">Сакам книги
+<input type="radio" name="izdavackikuki" value="antolog">Антолог
+<input type="radio" name="izdavackikuki" value="matica">Матица
+
+<hr />
+
+<h5>Кои од наведените жанрови ги читате?</h5>
+<input type="checkbox" name="zanr" value="triler">Трилери & Мистерии
+<input type="checkbox" name="zanr" value="triler">Романси & Чик Лит
+<input type="checkbox" name="zanr" value="triler">Драми & Историски
+
+<hr />
+
+<h5>Што би ни предложиле да би се подобриле и вие да бидете наш редовен купувач</h5>
+<textarea name="area" rows="5" cols="50"> </textarea>
+
+<hr />
+
+<input type="submit" value="SUBMIT">
+<input type="reset" value="RESET">
+
+</fieldset>
+</form>
+
+<img id="collage" src="Collage.png" alt="Collage_of_pictures">
+<h4 id="p"> &copy;Perica.102528 </h4>
+
+<ul id="RCA">
+<h7 id="RCAh">READER'S CHOICE AWARDS 2020</h7> 
+
+	<li>Избриши ги солзите - Романси
+	<hr />
+	<li>Патник 23 - Трилери и Мистерии
+	<hr />
+	<li>Изгубената ќерка - Историски драми
+	<hr />
+	<li>Тајната на Алексови - Женска фикција
+	<hr />
+	<li>Тајната на Алексови - Домашни автори
+	<hr />
+	<li>Без каење - Young Adult
+	<hr />
+	<li>Сестрите Романови - Нефикција
+	<hr />
+	<li>Бонтон за деца - Детски книги и сликовници
+	<hr />
+	<li>Сакај ја диво - Поезија
+</ul>
+</body>
+</html>

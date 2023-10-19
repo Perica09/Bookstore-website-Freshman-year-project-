@@ -1,0 +1,94 @@
+<html>
+
+<head>
+	<style>
+		body {margin: 0;
+			  height: 100%;
+			  overflow: hidden}
+		
+		a:link {text-decoration:none;
+				color:black;}
+		a:visited {text-decoration:none;
+				color:black;}
+		a:hover {text-decoration:none;
+				color:black;}
+		a:active {text-decoration:none;
+				color:black;}
+	
+		#home {background-color:#8B4513;
+				position:fixed;
+				width:100%;
+				text-align:right;
+				top:0px;
+				left:0px;
+				z-index: 1;}
+				
+		img {position:fixed;
+			top:0px;
+			left:40px;
+			z-index: 1;}
+			
+		#ribbon {position:relative;
+			     left:620px;}
+				 
+		h1 {color:red;}
+		
+		fieldset {border: 5px dashed red;
+				width:60%;
+				text-align:center;
+				background-image: url(Heart.jpg);
+				background-repeat:no-repeat;
+				position:relative;
+				left:300px;
+				bottom:50px;}
+				
+		#h4 {text-align:center;}
+			
+		
+	
+	</style>
+</head>
+
+<body bgcolor="#F0E68C">
+
+<div id="home"><h4><a href="Seminarska_Home.html">Дома</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="For_us.html">За нас</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Products.html">Продукти</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Contact.html">Контакт<a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4></div>
+<a href="Seminarska_Home.html"><img src="Bookmanialogo.png" alt="Bookmania"></a>
+<img id="ribbon" src="NY1.png" alt="New Year">
+
+
+<form action="mailto:youremail@email.com" method="post">
+<fieldset>
+<h1>КОНТАКТ</h1>
+
+<h2>Име и презиме:<input type="text" name="ime_prezime" maxlength="35" size="35"></h2>
+
+<hr/ width="50%">
+
+<h2>E-mail:<input type="text" name="ime_prezime" maxlength="35" size="35"> </h2>
+
+<hr/ width="50%">
+
+<select>
+<option hidden selected>Причина поради која сакате да не контактирате</option>
+<option value="Zalba">Жалба</option>
+<option value="Pomos">Помош</option>
+<option value="Predlog">Предлог</option>
+<option value="Drugo">Друго</option>
+</select>
+
+<hr/ width="50%">
+
+<h2>ПОРАКА:</h2> <textarea name="text" rows="10" cols="70"></textarea>
+
+<hr/>
+
+<input type="submit" name="SUBMIT"> 
+<input type="reset" name="RESET"> 
+
+<h4 id="h4"> &copy;Perica.102528 </h4>
+</fieldset>
+</form>
+
+
+</body>
+</html>
